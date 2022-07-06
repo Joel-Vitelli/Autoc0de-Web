@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Step 3 - Build Maven
-        run: mvn compile
+        run: mvn install
 
       # Runs a set of commands using the runners shell
       #- name: Step 4 - Download Latest Google Chrome
